@@ -1,0 +1,31 @@
+/*body{
+	 border-style: solid;
+	 border-color: red;
+	 border-bottom: 10px solid red;
+	
+	 border-left-width: 30px;
+	 border-right: 30px solid red;
+	 padding: 25px;
+	 margin: 25px;\
+ 
+	}*/
+
+      form{
+         border-style:solid;
+         border-color: red;
+         border-width: 30px;
+         border-top-width: 70px;
+         padding:55px;
+
+
+}
+
+
+	body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSqUGxkbDd_KqQTgIPBqFnoTTlKrfFqzfPRAMeDkCrBfvPa15Ww");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assingment 1</title>
+	<link rel="stylesheet" type="text/css" href="orderup.css">
+</head>
+
+
+
+<body>
+	
+		<h1 >Place an order</h1>
+
+<form name="orderup" action="results.html" method="get">
+
+	
+
+
+	<fieldset name="Billing Address">
+
+
+		<legend><b>Billing Address</b></legend>
+		<label><b>Firstname</b></label>
+		<input type="text" name="firstname" required="required" placeholder="Firstname"><br>
+
+
+		<label><b>Lastname</b></label>
+		<input type="text" name="Lastname" required="required" placeholder="Lastname"><br>
+
+		
+
+		<label><b>Street Address</b></label>
+		<input type="text" name="Street addreess" required placeholder="Address"><br>
+
+
+		<label><b>City</b></label>
+		<input type="City" name="City" required placeholder="City"><br>
+
+
+		<label><b>State</b></label>
+
+	<select name="State">
+		<option></option>
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY" selected>Wyoming</option>
+	
+</select>		
+
+	</fieldset>
+	
+
+
+
+		
+	
+		<fieldset name="Payment">
+
+
+
+		<legend><b>Card Details</b></legend>
+
+		<label><b>Visa</b></label>
+		<input type="radio" name="Card" value="visa" checked="visa">
+
+		<label><b>Discover</b></label>
+		<input type="radio" name="Card" value="discovery">
+
+		<label><b>Mastercard</b></label>
+		<input type="radio" name="Card" value="Nastercard">
+
+		<label><b>American Express</b></label>
+		<input type="radio" name="Card" value="Americanexpress"><br>
+
+
+
+
+
+		<label><b>Cardnumber</b></label>
+		<input type="text" name="Cardnumber" placeholder="Card Number" required="required"><br>
+
+		<label><b>Expiration Month</b></label>
+		<select name="Expiration month">
+			<option></option>
+			<option value="January">January</option>
+			<option value="February">February</option>
+			<option value="March">March</option>
+			<option value="April">April</option>
+			<option value="May">May</option>
+			<option value="June">June</option>
+			<option value="July">July</option>
+			<option value="August">August</option>
+			<option value="September">September</option>
+			<option value="October">October</option>
+			<option value="November">November</option>
+			<option value="December">December</option>
+		</select>
+
+
+
+		<label><b>Expiration Year</b></label>
+		<select name="Year of Expiration ">
+			<option></option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+		</select><br>
+
+		<label><b>CVV</b></label>
+		<input type="text" name="CVV" placeholder="CVV" required="required">
+
+
+		</fieldset>
+
+
+		
+
+
+		<fieldset name="Create Account">
+
+			
+			<legend><b>Create Account</b></legend>
+
+			<label><b>Username</b></label>
+			<input type="text" name="username" placeholder="Username" required="required"><br>
+
+
+			<label><b>Password</b></label>
+			<input type="password" name="Password" placeholder="Password" required="required"><br>
+
+			<label><B>Verify Password</B></label>
+			<input type="password" name="verify password" placeholder="Verify Password" required="required"><br>
+
+
+			<input type="submit" value="Place Order">
+		</fieldset>
+
+
+	</form>
+
+
+	
+
+
+
+
+</body>
+</html>
